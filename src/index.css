@@ -73,6 +73,14 @@ body {
     @apply text-[#afb0b6] text-base font-generalsans;
   }
 
+  .subhead-text {
+    @apply font-semibold sm:text-3xl text-xl relative;
+  }
+
+  .max-container {
+    @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
+  }
+  
   .copy-container {
     @apply cursor-pointer flex justify-center items-center gap-2;
   }

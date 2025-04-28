@@ -28,7 +28,7 @@ const Hero = () => {
         </div> 
         <div className='w-full h-full absolute inset-0'>
         <ErrorBoundary FallbackComponent={ErrorFallback}>
-          <Canvas className='w-full h-full' >
+          <Canvas className='w-full h-full z-50' >
             <Suspense fallback={<CanvasLoader/>}>
 
             <PerspectiveCamera makeDefault position={[0, 10, 50]}/>
@@ -38,8 +38,8 @@ const Hero = () => {
             <OrbitControls  enableDamping 
   dampingFactor={0.1} 
   rotateSpeed={0.5}
-  minDistance={25} 
-  maxDistance={90}
+  minDistance={35} 
+  maxDistance={70}
   />
             </Suspense>
           </Canvas>
