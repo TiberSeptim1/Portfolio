@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Contacts from './sections/Contacts'
+import { Analytics } from "@vercel/analytics/react";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Contacts/>
       </div>
       
+      <Analytics/>
     </main>
   )
 }
