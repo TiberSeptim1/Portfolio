@@ -28,18 +28,20 @@ const Hero = () => {
         </div> 
         <div className='w-full h-full absolute inset-0'>
         <ErrorBoundary FallbackComponent={ErrorFallback}>
-          <Canvas className='w-full h-full z-50' >
+          <Canvas className='w-full h-full' >
             <Suspense fallback={<CanvasLoader/>}>
 
             <PerspectiveCamera makeDefault position={[0, 10, 50]}/>
-            <Drone scale={6.0} position={[0,2,10]} rotation={[0, 0,0]}/>
-            <ambientLight intensity={1}></ambientLight>
-            <directionalLight position={[10, 10, 10]} intensity={3.0}></directionalLight>
-            <OrbitControls  enableDamping 
+            <Drone scale={5.0} position={[0,0,10]} rotation={[0, 0,0]}/>
+            <ambientLight intensity={1.5}></ambientLight>
+            <directionalLight position={[10, 10, 10]} intensity={3.5}></directionalLight>
+            <OrbitControls enableZoom={true} enableDamping 
   dampingFactor={0.1} 
   rotateSpeed={0.5}
   minDistance={35} 
   maxDistance={70}
+  maxPolarAngle={Math.PI/2}
+
   />
             </Suspense>
           </Canvas>

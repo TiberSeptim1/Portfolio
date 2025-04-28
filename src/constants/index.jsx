@@ -157,12 +157,12 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'CurveCraft',
+      desc: 'This project visualizes Rose Curves using Python, Plotly, and Streamlit. Users can interactively explore the curves by selecting between the sine or cosine functions and adjusting the parameter n, allowing for a deeper understanding of how these curves behave in polar coordinates.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
+        'The real-time updates and interactive interface, with radial lines for symmetry, make this an engaging way to explore math. Built with Plotly for dynamic graphs and Streamlit for the front-end, with NumPy for calculations.',
+      href: 'https://curvecraft.streamlit.app/',
+      texture: '/textures/project/project1.png',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -194,12 +194,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Youtube Video Downloader',
+      desc: 'This project is a YouTube video downloader built using yt-dlp and CustomTkinter. It allows users to download videos in different resolutions, such as 1080p, 720p, 480p, and 144p, through a simple graphical interface.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
+        'The app features a progress bar and status updates during the download process. CustomTkinter is used to create a sleek, user-friendly interface with real-time download status and error handling. The download process runs on a separate thread to ensure a smooth experience. yt-dlp handles the downloading of videos, with support for the best video and audio formats.',
+
+      href: 'https://github.com/TiberSeptim1/YoutubeDownloader',
+      texture: '/textures/project/project2.png',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -231,12 +232,12 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Indian Agriculture Crop Analysis',
+      desc: 'This project analyzes Indian agricultural data using Pandas, Streamlit, and Plotly to provide insights into crop yields across various states, seasons, and districts. Users can filter the data to recommend the best-performing crops based on yield and visualize trends.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
+        'The app offers interactive filters to select states, seasons, and districts. It displays the top 5 performing crops based on average yield and provides a yearly trend of crop yields. The recommendations are based on yield data, with a user-friendly interface powered by Streamlit. Plotly is used for visualizing crop performance and trends over the years.',
+      href: 'https://iaa-by-tiberseptim1.streamlit.app/',
+      texture: '/textures/project/project3.png',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -270,12 +271,12 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Elliptical Sound Simulation',
+      desc: 'This project simulates the acoustics of an elliptical stadium using Plotly and Streamlit. It visualizes how sound rays travel from one focus to the other, demonstrating the unique sound behavior in elliptical spaces.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
+        'The app allows users to adjust the major and minor axes of the ellipse and the number of sound rays. It visualizes the elliptical boundary, the foci, sound rays from one focus, and the reflected rays reaching the other focus. Plotly is used to create interactive graphics, offering a clear understanding of elliptical acoustics.',
+      href: 'https://elliptical-stadium-sound-simulation-by-tiberseptim1.streamlit.app/',
+      texture: '/textures/project/project4.png',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -307,12 +308,12 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'This Portfolio Website!',
+      desc: 'This interactive portfolio website showcases my projects and skills through dynamic, 3D visualizations built with React and Three.js. The website provides an immersive experience with smooth animations and a sleek design, highlighting my work in programming, data science, and AI.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+        'The site features a custom 3D environment with animations that react to user interactions. React handles the front-end structure and Three.js powers the interactive 3D scenes. It includes sections for projects, programming languages, and links to my GitHub, LinkedIn, and other profiles. The dynamic visuals create an engaging and futuristic design, tailored to represent my skills in modern web development.',
+      href: 'https://github.com/TiberSeptim1/Portfolio',
+      texture: '/textures/project/project5.png',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
