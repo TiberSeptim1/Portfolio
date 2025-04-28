@@ -31,8 +31,10 @@ import numpy from './numpy.svg'
 import pandas from './pandas.svg'
 import threejs from './threejs.svg'
 import c from './c.svg'
+import instagram from './instagram.svg'
 
 export {
+    instagram,
     python,
     c,
     pandas,

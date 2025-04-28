@@ -31,9 +31,27 @@ import {
   arrow,
   contact,
   soundon,
-  soundoff
+  soundoff,
+  instagram
 } from "../assets/icons";
 
+export const contacticon = [
+  {
+    imageUrl: instagram,
+    name: "instagram",
+    link: 'https://www.instagram.com/tiber.septim1/'
+  },
+  {
+    imageUrl: linkedin,
+    name: "Linkedin",
+    link: 'https://www.linkedin.com/in/vedant-belurkar-1a9985353/'
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    link: 'https://github.com/TiberSeptim1'
+  }
+];
 
 export const skills = [
   {
@@ -110,8 +128,8 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Work',
-      href: '#work',
+      name: 'Projects',
+      href: '#projects',
     },
     {
       id: 4,
