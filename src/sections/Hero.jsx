@@ -32,10 +32,10 @@ const Hero = () => {
             <Suspense fallback={<CanvasLoader/>}>
 
             <PerspectiveCamera makeDefault position={[0, 10, 50]}/>
-            <Drone scale={5.4} position={[0,0,10]} rotation={[0, 0,0]}/>
+            <Drone scale={5.6} position={[0,0,10]} rotation={[0, 0,0]}/>
             <ambientLight intensity={1.5}></ambientLight>
             <directionalLight position={[10, 10, 10]} intensity={3.5}></directionalLight>
-            <OrbitControls enableZoom={false} enableDamping 
+            <OrbitControls enableZoom={true} enableDamping 
   dampingFactor={0.1} 
   rotateSpeed={0.5}
   minDistance={35} 

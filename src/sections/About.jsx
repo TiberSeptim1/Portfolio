@@ -12,10 +12,10 @@ const About = () => {
         <div className='py-10 flex flex-col'>
             <h3 className='subhead-text'>My Skills</h3>
               <h4 className='subhead-text text-white'>My TechStack</h4>
-            <div className='mt-16 grid grid-cols-3 gap-8 px-20'>
+            <div className='mt-16 sm:flex flex-wrap grid grid-cols-3 gap-10'>
              {skills.map((skills)=>(
-                 <div className='w-20 h-20'>
-                    <div>
+                 <div className='w-20 h-20 block-container'>
+                    <div className='flex justify-center items-center'>
                         <img src={skills.imageUrl} alt={skills.name} className='w-16 h-16 object-contain '/>
                     </div>
                 </div>

@@ -11,12 +11,13 @@ const Contacts = () => {
              <p className='text-lg text-white-600'>
              Got an idea or just want to create something fun together? Let's connect, build, and learn along the way
              </p>
-             <div className='mt-16 flex flex-wrap gap-12'>
+             <div className='mt-16 grid grid-cols-3 gap-12 sm:grid-cols-3 '>
              {contacticon.map((contacticon)=>(
-                              <div className='w-24 h-24'>
-                                 <div>
+                              <div className=' sm:w-24 sm:h-24 w-16 h-16'>
+                                 <div className='transition-transform duration-200 transform hover:scale-125 place-items-center'>
                                     <a href={contacticon.link} target="_blank" rel="noopener noreferrer">
-                                     <img src={contacticon.imageUrl} alt={contacticon.name} className='w-24 h-24 object-contain '/>
+                                     <img src={contacticon.imageUrl} alt={contacticon.name} className='sm:w-24 sm:h-24 w-16 h-16 object-contain'/>
+                                     <div className='text-white-700 text-xl font-semibold text-center py-2'>{contacticon.name}</div>
                                     </a>
                                  </div>
                              </div>))}

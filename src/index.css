@@ -153,6 +153,8 @@ body {
     @apply w-2.5 h-2.5 object-contain invert brightness-0;
   }
 
+  
+
   /*  footer */
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
@@ -175,6 +177,27 @@ body {
     rgba(255, 255, 255, 0.000025) 50%,
     rgba(255, 255, 255, 0.025) 100%
   );
+}
+
+.block-container {
+  position: relative;
+  transition: 250ms;
+  perspective: 500px;
+}
+
+.block-container .btn-front {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+  background-color: #ffffff33;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transition: 250ms;
+  transform-style: preserve-3d;
+  transform-origin: top left;
+  overflow: hidden;
 }
 
 @keyframes wave-animation {
