@@ -32,8 +32,10 @@ import pandas from './pandas.svg'
 import threejs from './threejs.svg'
 import c from './c.svg'
 import instagram from './instagram.svg'
+import supabase from './supabase.svg'
 
 export {
+    supabase,
     instagram,
     python,
     c,

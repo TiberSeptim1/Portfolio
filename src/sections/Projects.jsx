@@ -16,7 +16,7 @@ const Projects = () => {
             if(direction==='previous'){
                 return prevIndex===0? projectno-1 : prevIndex-1;
             } else {
-                return prevIndex === projectno -1?0:prevIndex+1
+                return prevIndex === projectno -1 ? 0:prevIndex+1;
             }
         })
 

@@ -11,28 +11,12 @@ import {
   html,
   javascript,
   mongodb,
-  motion,
-  mui,
-  nextjs,
   nodejs,
   react,
-  redux,
-  sass,
   tailwindcss,
-  typescript,
   linkedin,
-  twitter,
-  car,
-  estate,
-  pricewise,
-  snapgram,
-  summiz,
-  threads,
-  arrow,
-  contact,
-  soundon,
-  soundoff,
-  instagram
+  instagram,
+  supabase
 } from "../assets/icons";
 
 export const contacticon = [
@@ -112,6 +96,22 @@ export const skills = [
       imageUrl: tailwindcss,
       name: "Tailwind CSS",
 
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+  },
+  {
+    imageUrl:nodejs,
+    name:"NodeJs",
+  },
+  {
+    imageUrl:express,
+    name:"Express"
+  },
+  {
+    imageUrl:supabase,
+    name:"Supabase"
   }
 ];
 
@@ -138,40 +138,7 @@ export const navLinks = [
     },
   ];
   
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
+  
   
   export const myProjects = [
     {
@@ -362,6 +329,14 @@ export const navLinks = [
         },
       ],
     },
+    {
+      title: 'MuscleBoard',
+      desc: 'MuscleBoard is a modern gym management application built using the MERN stack (MongoDB, Express, React, Node.js) with Supabase for seamless authentication. It allows gym owners to easily name their gym, add/edit/delete members, and view detailed member information in a clean, user-friendly interface. Designed for efficiency and scalability, MuscleBoard simplifies day-to-day gym operations.',
+      subdesc:
+        'MERN Stack with Google signin using Supabase Auth',
+      href: 'https://muscle-board-client.vercel.app/',
+      texture: '/textures/project/project6.png',
+    }
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {

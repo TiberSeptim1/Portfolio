@@ -9,12 +9,10 @@ Title: Buster Drone
 import React, { useRef, useEffect } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import * as THREE from 'three'
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+
 
 
 const Drone =(props)=>{
-  const droneref =useRef()
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/models/Drone-v1.glb')
   const { actions } = useAnimations(animations, group)
@@ -27,21 +25,6 @@ const Drone =(props)=>{
       Start_Liftoff.play()
     }
   }, [actions]);
-
-  
-
-  useGSAP(()=>{
-    gsap.delayedCall(9,()=>{
-    gsap.to(droneref.current.rotation, 
-      {
-        x:Math.PI*2,
-        y:Math.PI*2,
-        duration:5,
-        ease:'power3.inOut'
-      });
-    });
-  },[]);
-
 
 
   return (
@@ -66,7 +49,7 @@ const Drone =(props)=>{
                   </group>
                   <group name="Himmel" />
                 </group>
-                <group name="Drone_Controller" ref={droneref}>
+                <group name="Drone_Controller">
                   <group name="Turbine_Controller" position={[0, -100, -5]}>
                     <group
                       name="Turbine_R"
