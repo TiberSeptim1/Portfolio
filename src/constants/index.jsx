@@ -336,6 +336,14 @@ export const navLinks = [
         'MERN Stack with Google signin using Supabase Auth',
       href: 'https://muscle-board-client.vercel.app/',
       texture: '/textures/project/project6.png',
+    },
+    {
+      title: 'MessMate',
+      desc: 'MessMate is a comprehensive mess management application built using the PERN stack (PostgreSQL, Express, React, Node.js) with Supabase for authentication and Razorpay for payment integration. It enables mess owners to efficiently manage members, track payments, and maintain records through an intuitive interface. Designed to streamline mess operations, MessMate offers a seamless experience for both owners and members.',
+      subdesc:
+        'PERN Stack with Google signin using Supabase Auth and Payment Integration using Razorpay',
+      href: 'https://mess-mate-gilt.vercel.app/',
+      texture: '/textures/project/project7.png',
     }
   ];
   
